@@ -1,4 +1,4 @@
-package br.com.nogueiranogueira.aularefatoracao.solidproject.service;
+/*package br.com.nogueiranogueira.aularefatoracao.solidproject.service;
 
 import jakarta.mail.*;
 import jakarta.mail.internet.InternetAddress;
@@ -47,3 +47,4 @@ public class SmtpEmailService {
         }
     }
 }
+*/

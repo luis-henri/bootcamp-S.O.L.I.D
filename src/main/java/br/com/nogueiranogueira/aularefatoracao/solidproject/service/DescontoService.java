@@ -1,15 +1,18 @@
 package br.com.nogueiranogueira.aularefatoracao.solidproject.service;
 
 import br.com.nogueiranogueira.aularefatoracao.solidproject.model.Usuario;
+import br.com.nogueiranogueira.aularefatoracao.solidproject.model.UsuarioVIP;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class DescontoService {
-    public int calculaDescontoTotal(List<Usuario> usuarios) {
-        return usuarios.stream()
-                .mapToInt(Usuario::getDesconto)
-                .sum();
+
+    public void aplicarDesconto(Usuario usuario) {
+
+        if (usuario instanceof UsuarioVIP) {
+            usuario.setDesconto(20.0);
+        } else {
+            usuario.setDesconto(5.0);
+        }
     }
 }

@@ -1,4 +1,4 @@
-package br.com.nogueiranogueira.aularefatoracao.solidproject.controller;
+/*package br.com.nogueiranogueira.aularefatoracao.solidproject.controller;
 
 import br.com.nogueiranogueira.aularefatoracao.solidproject.dto.UsuarioDTO;
 import br.com.nogueiranogueira.aularefatoracao.solidproject.service.GerenciadorUsuarioService;
@@ -24,3 +24,4 @@ public class GerenciadorUsuarioController {
         }
     }
 }
+*/
